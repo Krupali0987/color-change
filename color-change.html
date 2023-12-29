@@ -1,0 +1,38 @@
+<html>
+<script language="javascript">
+    function change  (id)
+    {
+
+        switch (id)
+        {
+            case 'c1':
+                document.body.bgColor = "green";
+                break;
+
+            case 'c2':
+                document.body.bgColor = "yellow";
+                break;
+
+            case 'c3':
+                document.body.bgColor = "blue";
+                break;    
+
+            case 'c4':
+                document.body.bgColor = "pink";
+                break;
+
+             case 'c5':
+                document.body.bgColor = "red";
+                break;
+        }
+    }
+</script>
+<body>
+<input type="button" id="c1" onclick="change(id)" value="Red"/>
+<input type="button" id="c2" onclick="change(id)" value="Green"/>
+<input type="button" id="c3" onclick="change(id)" value="Yellow"/>
+<input type="button" id="c4" onclick="change(id)" value="Blue"/>
+<input type="button" id="c5" onclick="change(id)" value="Pink"/>
+
+</body>
+</html>
